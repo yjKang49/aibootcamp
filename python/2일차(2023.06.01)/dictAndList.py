@@ -27,5 +27,3 @@ for pay in payList:
 #다시출력
 for pay in payList:
     print( pay["name"], pay["work_time"], pay["per_pay"], pay["pay"])
-
-

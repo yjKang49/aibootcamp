@@ -35,12 +35,3 @@ print(f"nums3: ", nums)
 #반복문
 for n in nums:      #for 변수명 in 리스트타입: --데이터를 하나씩 차례대로 변수로 옮겨준다.
     print(n)
-
-
-
-
-
-
-
-
-

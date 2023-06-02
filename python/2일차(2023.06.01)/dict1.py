@@ -3,7 +3,7 @@
 
 #해쉬테이블, 딕셔너리
 colors = {"red" : '빨간색', "blue": '파란색', 'green' : '초록색', 'black' : '검정색'}
-print( colors['red'])       #red, blue, black 값 등을 키라고 하고 키를 데이터를 접근한다. 
+print( colors['red'])       #red, blue, black 등을 키라고 하고 키를 데이터를 접근한다. 
 print( colors['blue'])      #인덱싱, 슬라이싱 적용 안됨
 print( colors['green'])
 print( colors['black'])
@@ -21,6 +21,3 @@ print( colors)
 for key in colors:
     print(key, colors[key])
     
-
-
-

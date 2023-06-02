@@ -42,9 +42,3 @@ if fruits.count("사과") > 0:
     print("사과의 위치: ", fruits.index("사과"))
 else:
     print("사과는 없습니다.")
-
-
-
-
-
-
