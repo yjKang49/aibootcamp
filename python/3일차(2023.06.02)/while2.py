@@ -23,14 +23,35 @@ print(f"합계: {sum} 평균: {sum/len(numlist)}")
 
 print('*********************')
 
-evenNumbers = []
+evenNumber = []
 oddNumber = []
 natural = int(input("정수를 입력: "))
 while natural >=0:
     if natural%2 ==1:
         oddNumber.append(natural)
     else:
-        evenNumbers.append(natural)
+        evenNumber.append(natural)
     natural = int(input("정수를 입력: "))
-print(oddNumber, '  ', evenNumbers)
+print(oddNumber, '  ', evenNumber)
+print(f"짝수의 개수: {len(evenNumber)}, 홀수의 개수: {len(oddNumber)} ", end = ' ')
+
+oddSum = 0
+evenSum = 0
+
+#list를 [1,2,3,4,5,6] 입력했을 때 oddNumber는 oddNumber=[1, 3, 5]
+#따라서 for i in oddNumber로 작성하면 안됨. 첫번째 수가 1, 두번째가 3 세번째가 5 이렇게 갈것임. 
+#for i in oddNumber:         #i 는 리스트의 1번째부터 시작. 리스트의 0번째부터가 아님. 
+
+for i in range(0, len(oddNumber)):
+    oddSum = oddSum + oddNumber[i]
+print("홀수의 합계: ", oddSum)
+
+for i in range(0, len(evenNumber)):
+    evenSum = evenSum + evenNumber[i]
+print("짝수의 합계: ", evenSum)   
+
+
+print('****************강사풀이**********************')
+
+
 
