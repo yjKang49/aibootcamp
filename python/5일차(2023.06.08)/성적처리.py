@@ -65,7 +65,6 @@ def modify():
     name = input('수정할 이름: ')
     #result = list (filter(lambda x : x['name']==name, scoreList ))
     result = [x for x in scoreList if x['name'] == name ]
-    
     if len(result) == 0:
         print(f"{name}을/를 찾을 수 없습니다.")
         return
