@@ -26,11 +26,11 @@ class Person:
     #생성자 - 특별한 유형의 함수, 객체 생성시 자동으로 호출되는 메서드이다.
     #__init__ (언더바 두개******중요*********)
     #함수나 변수중에 __(언더바 두개)로 시작한다. 그러면 파이썬이 특수목적으로 만든거다. 
-    def __init__(self):  #첫번째 인자로 객체에 대한 참조가 전달되도록 되어있어서
+    def __init__(self, name='홍길동', age=20 ):  #첫번째 인자로 객체에 대한 참조가 전달되도록 되어있어서
                             #변수명이 꼭 self일 필요는 없지만 다른 사람들도 다 self쓰니까 우리도.
                             #클래스안에 선언된 함수는 첫번째 인자로 객체에 대한 참조를 전달하도록 되어있다.
-        self.name='조땡땡'
-        self.age=28
+        self.name=name
+        self.age=age
         self.phone = []
         print('생성자 호출')
     #변수 생성은 생성자에서 하자 -- ************중요*************
@@ -54,19 +54,18 @@ p2.name = '임꺽정'  #이때 p2용의 name속성을 만들어서 데이터를 
 p2.phone.append('010-0000-2222')
 print( p2.name )
 print( p2.age )
-print( p2.phone)
+print( p2.phone )
 
 p1.output()
 p2.output()
 
+#객체 생성 방법이 다양해진다. 
+p3 = Person('김종국')
+p4 = Person('유재석', 52)
+p5 = Person(age=35)
 
-
-
-
-
-
-
-
-
+p3.output()
+p4.output()
+p5.output()
 
 
