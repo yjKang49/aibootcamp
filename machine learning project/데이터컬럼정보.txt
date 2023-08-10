@@ -1,0 +1,117 @@
+이산화황 - COPERNICUS/S5P/NRTI/L3_SO2
+	대부분은 공업 과정에서의 부산물로써 생성
+	금속의 제련 공정에서 주로 발생
+	석탄이나 석유를 태우면 대량으로 발생하는 공해 물질
+	석탄이나 석유를 석탄 화력 발전소나 보일러, 선박 등에서 태우면 대량의 이산화황이 발생
+
+일산화탄소 - COPERNICUS/S5P/NRTI/L3_CO
+	석탄이나 석유를 다량 연소시키는 공업지대의 대기에 포함되어 있는 경우가 있다.
+	탄소 화합물이 불완전 연소되면 발생
+
+이산화질소 - COPERNICUS/S5P/NRTI/L3_NO2
+	연소과정에서 공기 중에 배출된 일산화질소가 산화하여 생성
+	대기 중의 휘발성 유기화합물(VOCs)과 반응하여 오존을 생성하는 전구물질 역할
+	자동차, 산업시설 등에 사용되는 연료의 고온연소 시 발생
+
+포름알데히드 - COPERNICUS/S5P/NRTI/L3_HCHO
+	탄소가 포함된 물질이 불완전 연소할 때 쉽게 만들어짐. 
+	산불이나 담배 연기 또는 자동차 매연에서 발견
+	 공기중에서는 메테인과 다른 탄화수소에 햇빛과 산소가 가해지면서 합성된다. 
+	주로 메탄올을 산화시키면 얻을 수 있다.
+
+UV 에어로졸 지수 - COPERNICUS/S5P/NRTI/L3_AER_AI
+	 자외선(ultraviolet)
+	자외선·가시광 에어로졸 지수는 에어로졸의 성질을 나타내는 지수
+	자외선 에어로졸 지수는 에어로졸의 흡수성에 대한 정보
+	가시광선 에어로졸 지수는 에어로졸의 크기에 대한 정보를 나타낸다. 
+	에어로졸의 흡수 및 크기 정보는 미세먼지, 황사 등의 구분에 활용된다. 
+
+오존 - COPERNICUS/S5P/NRTI/L3_O3
+	지표면의 오존은 자동차 배기 가스 등의 오염물질이 자외선과 반응하여 생성된다. 
+	시골보다 도시에서 자외선이 침투하기 어려운 이유가 오존 때문
+
+클라우드 - COPERNICUS/S5P/OFFL/L3_CLOUD
+	구름
+
+전체 컬럼
+
+'latitude',
+ 'longitude',
+ 'year',
+ 'week_no',
+ 'SulphurDioxide_SO2_column_number_density', 이산화황 밀도
+ 'SulphurDioxide_SO2_column_number_density_amf',
+ 'SulphurDioxide_SO2_slant_column_number_density',
+ 'SulphurDioxide_cloud_fraction',
+ 'SulphurDioxide_sensor_azimuth_angle',
+ 'SulphurDioxide_sensor_zenith_angle',
+ 'SulphurDioxide_solar_azimuth_angle',
+ 'SulphurDioxide_solar_zenith_angle',
+ 'SulphurDioxide_SO2_column_number_density_15km',
+ 'CarbonMonoxide_CO_column_number_density',
+ 'CarbonMonoxide_H2O_column_number_density',
+ 'CarbonMonoxide_cloud_height',
+ 'CarbonMonoxide_sensor_altitude',
+ 'CarbonMonoxide_sensor_azimuth_angle',
+ 'CarbonMonoxide_sensor_zenith_angle',
+ 'CarbonMonoxide_solar_azimuth_angle',
+ 'CarbonMonoxide_solar_zenith_angle',
+ 'NitrogenDioxide_NO2_column_number_density',
+ 'NitrogenDioxide_tropospheric_NO2_column_number_density',
+ 'NitrogenDioxide_stratospheric_NO2_column_number_density',
+ 'NitrogenDioxide_NO2_slant_column_number_density',
+ 'NitrogenDioxide_tropopause_pressure',
+ 'NitrogenDioxide_absorbing_aerosol_index',
+ 'NitrogenDioxide_cloud_fraction',
+ 'NitrogenDioxide_sensor_altitude',
+ 'NitrogenDioxide_sensor_azimuth_angle',
+ 'NitrogenDioxide_sensor_zenith_angle',
+ 'NitrogenDioxide_solar_azimuth_angle',
+ 'NitrogenDioxide_solar_zenith_angle',
+ 'Formaldehyde_tropospheric_HCHO_column_number_density',
+ 'Formaldehyde_tropospheric_HCHO_column_number_density_amf',
+ 'Formaldehyde_HCHO_slant_column_number_density',
+ 'Formaldehyde_cloud_fraction',
+ 'Formaldehyde_solar_zenith_angle',
+ 'Formaldehyde_solar_azimuth_angle',
+ 'Formaldehyde_sensor_zenith_angle',
+ 'Formaldehyde_sensor_azimuth_angle',
+ 'UvAerosolIndex_absorbing_aerosol_index',
+ 'UvAerosolIndex_sensor_altitude',
+ 'UvAerosolIndex_sensor_azimuth_angle',
+ 'UvAerosolIndex_sensor_zenith_angle',
+ 'UvAerosolIndex_solar_azimuth_angle',
+ 'UvAerosolIndex_solar_zenith_angle',
+ 'Ozone_O3_column_number_density',
+ 'Ozone_O3_column_number_density_amf',
+ 'Ozone_O3_slant_column_number_density',
+ 'Ozone_O3_effective_temperature',
+ 'Ozone_cloud_fraction',
+ 'Ozone_sensor_azimuth_angle',
+ 'Ozone_sensor_zenith_angle',
+ 'Ozone_solar_azimuth_angle',
+ 'Ozone_solar_zenith_angle',
+ 'UvAerosolLayerHeight_aerosol_height',
+ 'UvAerosolLayerHeight_aerosol_pressure',
+ 'UvAerosolLayerHeight_aerosol_optical_depth',
+ 'UvAerosolLayerHeight_sensor_zenith_angle',
+ 'UvAerosolLayerHeight_sensor_azimuth_angle',
+ 'UvAerosolLayerHeight_solar_azimuth_angle',
+ 'UvAerosolLayerHeight_solar_zenith_angle',
+ 'Cloud_cloud_fraction',
+ 'Cloud_cloud_top_pressure',
+ 'Cloud_cloud_top_height',
+ 'Cloud_cloud_base_pressure',
+ 'Cloud_cloud_base_height',
+ 'Cloud_cloud_optical_depth',
+ 'Cloud_surface_albedo',
+ 'Cloud_sensor_azimuth_angle',
+ 'Cloud_sensor_zenith_angle',
+ 'Cloud_solar_azimuth_angle',
+ 'Cloud_solar_zenith_angle',
+ 'emission'
+
+
+
+
+

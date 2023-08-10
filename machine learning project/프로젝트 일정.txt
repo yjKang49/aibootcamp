@@ -1,0 +1,25 @@
+8/2 주제발표
+8/4 중간발표
+8/8 최종발표
+
+* 발표 confirm
+데이터 각각이 필요한 이유에대해 자세히 발표자료에 넣었으면 좋겠다
+
+8/2(수)
+kaggle getting start 파악
+데이터 feature 파악
+모델 정보를 알아본다. 정보수집!
+
+8/3(목)
+어제 살펴본 내용을 바탕으로 오전 회의
+회의 결과 바탕으로 데이터 전처리 
+getting start 기준으로 모델링할 예정
+import feature 파악 (XGboost, random forest, catboost)
+***EDA
+
+8/4(금)
+중간발표
+
+
+
+
